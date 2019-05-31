@@ -7,4 +7,6 @@ import java.util.List;
 public interface StudentDao {
 
     public List<Student> selectAll();
+    
+    public void insert();
 }
